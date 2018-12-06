@@ -71,21 +71,6 @@ export default class TabTwo extends Component {
       <Home {...this.props} tabTwo>
       <Container  style={{height:'100%'}}>
         <Content >
-                {/* {this.rekomen.tagNames.map((tagName)=>(
-                                    <TouchableOpacity style={{ width:'100%', justifyContent:"flex-start", borderBottomWidth:1, borderColor:'#D4D0C8'}}>
-                                      <Left style={{flexDirection:'column', width:'100%',paddingLeft:10}}>
-                                          <Text style={{textAlign:'left'}}>{tagName.tagName} <Icon type='font-awesome' name='angle-right'/></Text> 
-                                          <Text style={{textAlign:'left', color:'gray', fontSize:11,}}>{tagName.komenTag}</Text>
-                                          
-                                      </Left>
-                                          <TouchableOpacity>
-                                            <View style={{backgroundColor:'red'}}>
-
-                                            </View>
-                                          </TouchableOpacity>
-                                      
-                                    </TouchableOpacity>
-                ))} */}
                 {this.rekomen.tagNames.map((tn,key)=>(
                             
                                       <View style={{borderBottomWidth:1,borderBottomColor:'#E6E3DF',}}  key={key}>

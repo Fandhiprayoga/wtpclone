@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, Image, ScrollView} from 'react-native';
+import {Text,Image, } from 'react-native';
 import {
     Container,
     Header,
@@ -15,13 +15,7 @@ import {
     Tabs
 } from 'native-base';
 import {Icon} from 'react-native-elements'
-import {Actions} from 'react-native-router-flux'
 import TabBtn from './TabBtn'
-// import { createTabNavigator, createAppContainer } from 'react-navigation';
-
-// 
-
-// import Tab3 from '../tabs/tabThree';
 
 export default class Home extends Component {
   

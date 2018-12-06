@@ -15,6 +15,7 @@
     "react-native-easy-grid": "^0.2.0",
     "react-native-elements": "^0.19.1",
     "react-native-gesture-handler": "^1.0.10",
+    "react-native-grid-component": "^1.1.0",
     "react-native-router-flux": "^4.0.6",
     "react-native-slideshow": "^1.0.1",
     "react-native-swiper": "^1.5.14",
