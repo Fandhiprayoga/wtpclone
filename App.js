@@ -9,6 +9,7 @@ import Pembaruan from "./screens/Pembaruan";
 import User from "./screens/User";
 import Jelajah from './tabs/tabOne';
 import Rekomendasi from './tabs/tabTwo';
+import Login from "./screens/Login";
 
 
 
@@ -18,8 +19,9 @@ const Apps = createStackNavigator({
     User: User,
     Jelajah: Jelajah,
     Rekomendasi: Rekomendasi,
+    Login:Login
 },{
-    initialRouteName: 'Jelajah',
+    initialRouteName: 'Login',
     headerMode: "none"
 })
 
