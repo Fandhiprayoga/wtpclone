@@ -146,6 +146,7 @@ export default class Perpustakaan extends Component {
                     <Tab tabStyle={{backgroundColor: 'white'}}  activeTabStyle={{backgroundColor: 'white'}} activeTextStyle={{color: '#000', fontWeight: 'normal',fontSize:12}}  textStyle={{fontSize:12}} heading="DAFTAR BACAAN">
                       {/* <Tab3 /> */}
                             <Content>
+                                <TouchableOpacity>
                                 <Card>
                                     <CardItem>
                                     <Body>
@@ -164,6 +165,7 @@ export default class Perpustakaan extends Component {
                                     </Body>
                                     </CardItem>
                                 </Card>
+                                </TouchableOpacity>
                             </Content>
                     </Tab>
                   </Tabs>
